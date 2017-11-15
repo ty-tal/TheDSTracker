@@ -1,0 +1,16 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Ty Talmadge -- Senior Developer
+    Melissa Clinton -- Chief Architect
+
+# THANKS
+
+    Adelienne, Heather and James for moral support
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Normalize.css, jQuery, Modernizr
