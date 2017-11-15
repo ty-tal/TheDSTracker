@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <link rel="stylesheet" href="css/bootstrap.css" media="screen">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="center jumbotron">
+            <h3>The Duodenal Switch Tracker (TDST)</h3>
+        
+            <!-- <p>All baseline information is readily available on the official USDA website.</p>
+            <p><a href="https://ndb.nal.usda.gov/ndb/search/list" target="_blank">Link to The official USDA website</a></p> -->
+        
+            <!-- // start calculator // -->
+            <div id="container2">
+                <div id="container1">
+                    <div id="col1">
+                        <p>Protein:</p>
+                        <p>Fat:</p>
+                        <p>Simple Carbs:</p>
+                        <p>Complex Carbs:</p>
+                        <p><br></p>
+                        <p>Total Calories:</p>
+                        <p>Total Absorbed:</p>
+                    </div>
+                    <div id="col2">
+                        <p><input type="number" name="breakfast_protein" id="bp01" title="Protein 4 cals/gm 60% absorbed (0.6)" class="bp01 key" placeholder="0">&nbsp;gm</p>
+                        <p><input type="number" name="breakfast_fat" id="bf01" title="Fat 9 cals/gm 20% absorbed (0.2)" class="bf01 key" placeholder="0">&nbsp;gm</p>
+                        <p><input type="number" name="breakfast_simple_carbs" id="bsc01" title="Simple Carbs 4 cals/gm 60% absorbed (0.6)" class="bsc01 key" placeholder="0">&nbsp;gm</p>
+                        <p><input type="number" name="breakfast_complex_carbs" id="bcc01" title="Complex Carbs 4 cals/gm 60% absorbed (0.6)" class="bcc01 key" placeholder="0">&nbsp;gm</p>
+                        <p><br></p>
+                        <p><input type="number" readonly="readonly" id="dat02" class="dat02" title="Total Grams Eaten"></p>
+                        
+                        <p><input type="number" readonly="readonly" id="dat01" class="dat01" title="Total Grams Absorbed"></p>
+                        <p><input type="hidden" id="carbcount01" class="carbcount01"></p>
+                    </div>
+                </div>
+                <p>Total Carbs:<br /><span id="message" class="message"></span></p>                
+            </div>
+       </div>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <!-- <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src='//www.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script> -->
+    </body>
+</html>
