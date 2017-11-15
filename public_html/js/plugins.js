@@ -21,15 +21,6 @@
     }
 }());
 
-/*$("#tally_total").click(function () {
-    var bp01 = $("#bp01");
-    var bf01 = $("#bf01");
-    var bsc01 = $("#bsc01");
-    var bcc01 = $("#bcc01");
-    var dailytotal = parseInt(bp01.val()||0)*9*.6 + parseInt(bf01.val()||0)*9*.2 + parseInt(bsc01.val()||0)*9*.6 + parseInt(bcc01.val()||0);
-    //alert(bt01);
-    $("#dat01").val(dailytotal);
-}) */
 $(document).ready(function() {
     $(".sum").val("0");
     $(".key").val("");
